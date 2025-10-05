@@ -20,3 +20,20 @@ let boolisLoggedIn=Boolean(isLoggedIn)
 0/1 => false/true
 96/-96=>true
 */
+//******************************** Operations ******************************************
+let value=96
+let negValue=-value
+// console.log(negValue)  //-96
+//console.log(2**4)       //2^4=16
+let str1 = "Hello"
+let space = " "
+let str2 = "Bhavesh"
+let str3 = str1 + space + str2
+// console.log(str3)
+// console.log("1"+2)   // =>12
+// console.log(1+"2")   // =>12
+// console.log(1+2+"3") // =>33
+// console.log("1"+2+3) // =>123
+
+// console.log(+true)   // =>1
+// console.log(+true)   // =>error
