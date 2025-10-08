@@ -13,9 +13,9 @@ and how much of the liquid is inside the glass
 
 // object
 
-console.log(typeof age)       // number
-console.log(typeof null)      //object
-console.log(typeof undefined) //undefined
+//console.log(typeof age)       // number
+//console.log(typeof null)      //object
+//console.log(typeof undefined) //undefined
 
 //  Primitive
 
@@ -31,7 +31,7 @@ let userEmail;
 const id = Symbol('123')
 const anotherId = Symbol('123')
 
-console.log(id === anotherId);
+//console.log(id === anotherId);
 
 // const bigNumber = 3456543576654356754n
 
@@ -43,7 +43,7 @@ console.log(id === anotherId);
 
 const heros = ["shaktiman", "naagraj", "doga"];
 let myObj = {
-    name: "hitesh",
+    name: "Bhavesh",
     age: 22,
 }
 
@@ -51,4 +51,4 @@ const myFunction = function(){
     console.log("Hello world");
 }
 
-console.log(typeof anotherId);
+// console.log(typeof anotherId);
