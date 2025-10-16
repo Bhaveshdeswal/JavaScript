@@ -87,8 +87,14 @@ const users = [
 
 // console.log(users[1].email)
 
-// console.log(instaUser);
+//console.log(instaUser);
 // console.log(Object.keys(instaUser));
 // console.log(Object.values(instaUser));
 // console.log(Object.entries(instaUser));
 // console.log(instaUser.hasOwnProperty('isLoggedIn'));
+/*
+let {contactDetails} = instaUser
+console.log(contactDetails)   
+*/
+let {contactDetails: data} = instaUser
+//console.log(data)
