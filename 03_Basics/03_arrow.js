@@ -1,6 +1,6 @@
 const user = {
-    username: "hitesh",
-    price: 999,
+    username: "Bhavesh",
+    price: 300,
 
     welcomeMessage: function() {
         console.log(`${this.username} , welcome to website`);
@@ -10,28 +10,27 @@ const user = {
 }
 
 // user.welcomeMessage()
-// user.username = "sam"
+// user.username = "Kite"
 // user.welcomeMessage()
 
 // console.log(this);
 
 // function chai(){
-//     let username = "hitesh"
+//     let username = "Bhavesh"
 //     console.log(this.username);
 // }
 
 // chai()
 
 // const chai = function () {
-//     let username = "hitesh"
+//     let username = "Bhavesh"
 //     console.log(this.username);
 // }
 
 const chai =  () => {
-    let username = "hitesh"
+    let username = "Bhavesh"
     console.log(this);
-}
-
+}   // => is arrow used for arrow functions
 
 // chai()
 
@@ -43,7 +42,7 @@ const chai =  () => {
 
 // const addTwo = (num1, num2) => ( num1 + num2 )
 
-const addTwo = (num1, num2) => ({username: "hitesh"})
+const addTwo = (num1, num2) => ({username: "Bhavesh"})
 
 
 console.log(addTwo(3, 4))
